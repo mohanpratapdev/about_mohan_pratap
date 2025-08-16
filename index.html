@@ -7,13 +7,73 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#github-projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <header id="home">
         <img id="avatar" src="" alt="Avatar">
         <h1 id="name"></h1>
         <p id="bio"></p>
     </header>
 
     <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                [This is a placeholder for your "About Me" section. You can write a brief introduction about yourself, your passion for software development, and your career goals. You can also mention some of your hobbies or personal interests to give a personal touch.]
+            </p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>[Placeholder Skill 1: e.g., JavaScript (ES6+)]</li>
+                <li>[Placeholder Skill 2: e.g., React & React Native]</li>
+                <li>[Placeholder Skill 3: e.g., Node.js & Express]</li>
+                <li>[Placeholder Skill 4: e.g., Python & Django]</li>
+                <li>[Placeholder Skill 5: e.g., SQL & NoSQL Databases]</li>
+                <li>[Placeholder Skill 6: e.g., Git & GitHub]</li>
+                <li>[Placeholder Skill 7: e.g., Docker & CI/CD]</li>
+            </ul>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="job">
+                <h3>[Placeholder: Job Title] at [Placeholder: Company Name]</h3>
+                <p>[Placeholder: Dates of Employment, e.g., Jan 2022 - Present]</p>
+                <ul>
+                    <li>[Placeholder: Describe your key responsibilities and accomplishments in this role.]</li>
+                    <li>[Placeholder: Mention specific projects you worked on and the technologies you used.]</li>
+                    <li>[Placeholder: Quantify your achievements whenever possible (e.g., "Improved API response time by 30%").]</li>
+                </ul>
+            </div>
+            <div class="job">
+                <h3>[Placeholder: Previous Job Title] at [Placeholder: Previous Company Name]</h3>
+                <p>[Placeholder: Dates of Employment, e.g., May 2020 - Dec 2021]</p>
+                <ul>
+                    <li>[Placeholder: Describe your key responsibilities and accomplishments in this role.]</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3>[Placeholder: Your Degree] in [Placeholder: Your Major]</h3>
+                <p>[Placeholder: University Name], [Placeholder: Graduation Year]</p>
+                <p>[Placeholder: You can add any honors, relevant coursework, or academic achievements here.]</p>
+            </div>
+        </section>
+
         <section id="github-projects">
             <h2>GitHub Projects</h2>
             <div id="projects-container"></div>
@@ -22,6 +82,12 @@
         <section id="linkedin-profile">
             <h2>LinkedIn Profile</h2>
             <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="mohanpratapdev"><a class="LI-simple-link" href='https://in.linkedin.com/in/mohanpratapdev?trk=profile-badge'>Mohan Pratap</a></div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of an amazing team. Feel free to get in touch!</p>
+            <a href="mailto:mohanpratapdev@example.com" class="contact-button">Email Me</a>
         </section>
     </main>
 
